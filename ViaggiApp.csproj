@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ViaggiApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="MenuStampeForm.cs" />
+    <Compile Include="ClientiForm.cs" />
+    <Compile Include="TourOperatorForm.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+</Project>
